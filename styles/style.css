@@ -1,0 +1,138 @@
+html{
+	font-size: 10px;
+	font-family: 'Comic Sans MS', sans-serif;	
+	}
+	#hello{
+	margin:0;
+	font-size: 60px;
+	text-align: center;
+	}
+	#aboutme{
+	font-size: 40px;
+	padding-top: 100px;
+	padding-left: 100px;
+	}
+	#Profile {
+
+	border-radius:30%;
+	padding-top: 50px;
+	padding-left: 20px;
+	display: block;
+	margin: 0 auto;
+	border:solid 4px;
+  	border-bottom-color:#84CEE8;
+ 	border-left-color:#84CEE8;
+  	border-right-color:#84CEE8;
+  	border-top-color:#84CEE8;
+  	background-color: #84CEE8;
+ 
+
+	}
+	#contact{
+	font-size: 40px;
+	padding-top: 100px;
+	padding-left: 100px;
+	}	
+
+li{
+	display: inline;
+	text-align: right;
+	}
+#navbar {
+	position: fixed;
+    top: 0px;
+    width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 30;
+	overflow: hidden;
+	background-color: #FFC0CB;
+	font-size: 30px;
+	}
+li a {
+	padding: 14px 16px;
+	text-decoration: none;
+	color: black;
+	}
+	#aboutmetext1 {
+	padding-top: 100px;
+	font-size: 30px;
+	text-align: center;
+	}
+	#bookicon {
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+#intable{
+	padding-top: 250px;
+
+}
+	#interested{
+		border-collapse: collapse;
+		width: 100%;
+		text-align: center;
+		float: center;
+	}
+	#interested td, #interested th {
+		text-align: center;
+		font-size: 25px;
+	}
+	#interested th{
+		background-color: #84CEE8;
+		font-size: 30px;
+		width: 60%;
+	}
+	img{
+		padding-top: 30px;
+	}
+	#contacttable{
+		margin-left: 200px;
+		border-collapse: collapse;
+	
+	}
+	#contacttable td, #contacttable th {
+		text-align: left;
+		font-size: 30px;
+
+	}
+	#contacttable td a {
+		color: black;
+		
+	}
+
+	form {
+
+		margin: 0 auto;
+		width: 400px;
+		padding: 1em;
+		border: 1px solid #84CEE8;
+		background-color:#84CEE8; 
+		border-radius: 1em;
+	}
+	form div + div{
+		margin-top: 1em;
+	}
+	label {
+		display: inline-block;
+		width: 90px;
+		text-align: right;
+	}
+	input, textarea{
+		font:20px ;
+		width: 300px;
+		box-sizing: border-box;
+		border: 1px solid #84CEE8;
+
+	} 	
+	textarea{
+		vertical-align: top;
+		height: 10em;
+	}
+	.button{
+		padding-left: 90px;
+		
+	}
+	button{
+		margin-left: .5em;
+		font-family: 'Comic Sans MS', sans-serif;
+	}
